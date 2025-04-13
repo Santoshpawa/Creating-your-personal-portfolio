@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="60">
+  <title>Document</title>
+  <style>
+    header{
+      font-family: sans-serif;
+      text-align: center;
+      color: navy;
+      font-size: 14px;
+      width:100%;
+      height: 100px;
+      background-color: #fe6347;
+      
+    }
+    div#head{
+      font-weight:bold ;
+      font-size: 30px;
+      margin-bottom: 10px;
+      padding-top:20px;
+      font-display: centre;
+    }
+    a{
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      word-spacing: 10px;
+      padding-bottom: 10px;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border:1px solid;
+    }
+    input{
+        width:180px;
+        height: 20px;
+        text-wrap: 
+    }
+    #project{
+        image-resolution: ;
+        border: 1px solid;
+        border-color: brown;
+        margin-bottom: 5px;;
+    }
+    footer{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        padding: 5px;
+        background-color: #fe6347;
+    }
+
+  </style>
+
+</head>
+<body>
+ 
+<header>
+  <div  id="head">Welcome to My Portfolio</div>
+
+  <nav>
+     <a href="" target="_blank">About</a>  
+     <a href="" target="_blank">Project</a>
+     <a href="" target="_blank">Contact</a>
+  </nav>
+</header>
+
+<section>
+  
+  <article>
+    <h3>About Me</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet architecto quisquam accusamus totam voluptates cumque sunt laudantium consequuntur fuga, hic, vero quaerat adipisci tempore. Ratione nesciunt repellat nemo iusto!
+    </p>
+  </article>
+  <article>
+    <img height="50px"  width="50px" src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379005.jpg&fm=jpg" alt="A photo of me"/>
+  </article>
+  <article>
+    <h3>Projects</h3>
+    <div id="project">
+        Project one: Personal Blog<br>
+        <input type="button" value="Screenshot of my project"/>
+        
+        <p>A personal blog where I write about web development, coding and personal growth.</p>
+        <a href="">View Project</a>
+        <ul>
+            <li>Technology Used
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="project">
+        Project two: E-Commerse Website<br>
+        <input type="button" value="Screenshot of my project"/>
+        <p>A web site where you can buy and sell trending clothes.</p>
+        <a href="">View Project</a>
+        <ul>
+            <li>Technology Used
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+  </article>
+  <article>
+    <h3>Contact</h3>
+    <form>
+      <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required maxlength="20"/>
+      </div>
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required maxlength="30"/>
+      </div>
+      <div>
+        <label for="message">Message</label><br>
+        <textarea id="message" rows="5" cols="55"></textarea>
+      </div>
+      <div>
+        <input type="submit" name="Submit" id="submit"/>
+      </div>
+    </form>
+  </article>
+</section>
+
+<footer>
+    <p>My Portfolio</p>
+    <p>Follow me on <a href="">Twitter</a> <a href="">Git</a></p>
+</footer>
+  
+</body>
+</html>
